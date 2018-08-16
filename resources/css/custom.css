@@ -1,0 +1,107 @@
+body, html {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+/* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
+
+/*
+div, section {
+  border: 1px solid black;
+}
+*/
+
+h1 {
+  font-weight: bolder;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
+/* Navbar */
+
+.company img {
+  height: 2.5rem;
+  padding-right: 1rem;
+  margin-top: 2px;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  background-color: black;
+}
+
+/* colours for links in navbar */
+ul.nav li a, ul.nav li a:visited {
+    color: white !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: grey !important;
+}
+
+ul.nav li.active a {
+    color: white !important;
+}
+
+/
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/salon.jpg");
+  color: White !important;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/salon.jpg");
+}
+
+.jumbotron p {
+  font-style: italic;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: purple;
+  font-style:normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  background-color: #eee;
+}
+
+.row img {
+  margin: 20px 0;
+}
+
+.sect-title{
+  margin:auto;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 1em;
+}
+
+/* Footer */
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
+}
