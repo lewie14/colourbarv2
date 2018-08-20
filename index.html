@@ -34,10 +34,10 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <!-- <ul class="nav navbar-nav">
             <li><a href="#">The ColourBar Salon</a></li>
             </li>
-          </ul>
+          </ul> -->
 
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Services</a></li>
@@ -55,24 +55,25 @@
   <main>
     <!-- Jumbotron -->
     <section class="jumbotron">
-      <div class="fluid-container">
+      <div class="fluid-container cbtitle">
         <h1>The ColourBar Salon</h1>
         <p>Hong Kong's biggest clelebrity hair salon</p><br>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Call Us</a></p>
       </div>
     </section>
 
-    <!-- Skills section: 3 columns with icons -->
-  <section id="skills">
+    <!-- Services section: 3 columns with icons -->
+  <section id="services">
     <div class="container">
       <!-- Skills heading -->
-      <h1 class="text-center sect-title">Services</h1>
+      <h2 class="text-center sect-title">Services</h2>
 
       <!-- 1x3 Bootstrap grid of skills with icons -->
       <div class="row">
         <!-- Hair cut Column -->
         <div class="col-sm-4 skill text-center">
-          <span aria-hidden="true" class="fa fa-photo fa-5x"></span>
+          <ion-icon name="cut"></ion-icon>
+          <!-- <span aria-hidden="true" class="fa fa-photo fa-5x"></span> -->
           <h3>Hair Cut</h3>
           <p>Classic</p>
           <p>Modern</p>
@@ -81,7 +82,8 @@
 
         <!-- Colouring Column -->
         <div class="col-sm-4 skill text-center">
-          <span aria-hidden="true" class="fa fa-cog fa-5x"></span>
+          <ion-icon name="color-palette"></ion-icon>
+          <!-- <span aria-hidden="true" class="fa fa-cog fa-5x"></span> -->
           <h3>Colouring</h3>
           <p>Highlights</p>
           <p>Bronde</p>
@@ -90,7 +92,8 @@
 
         <!-- Grooming Column -->
         <div class="col-sm-4 skill text-center">
-          <span aria-hidden="true" class="fa fa-pencil fa-5x"></span>
+          <ion-icon name="body"></ion-icon>
+          <!-- <span aria-hidden="true" class="fa fa-pencil fa-5x"></span> -->
           <h3>Grooming</h3>
           <p>Anti-frizz</p>
           <p>Repair</p>
@@ -101,13 +104,14 @@
   </section>
 
   <!-- Portfolio: 3x3 Grid with responsive images -->
-    <section id="portfolio">
+    <section id="stylists">
       <div class="fluid-container">
-        <h1 class="text-center sect-title">Stylists</h1>
+        <h2 class="text-center sect-title">Stylists</h2>
         <!-- Row 1 -->
         <div class="row">
           <!-- Stylist 1 -->
           <div class="col-sm-4">
+
             <img class="img-responsive" src="resources/images/ned.png">
             <h4 class="text-center"><a href="#">Ian</a></h4>
           </div>
@@ -143,13 +147,42 @@
       </div>
     </section>
 
+<!-- Contact Us -->
 
+    <section id = "contact">
+      <div class="fluid-container">
+        <!-- Contact Heading -->
+        <h2 class="text-center">Contact Us</h2>
+      </div>
 
-  <!-- Contact -->
-      <section id="contact">
+      <div class="row">
+        <!-- Stylist 1 -->
+        <div class="col-sm-4">
+
+          <h4 class="text-center"><a href="#">Address</a></h4>
+          <p>9 Chiu Lung Street, 11/F EuBank Plaza , Central District, Hong Kong</p>
+          <p>852 - 25254228 / 25254229</p>
+        </div>
+        <!-- Stylist 2 -->
+        <div class="col-sm-4">
+          <h4 class="text-center"><a href="#">Hours</a></h4>
+          <p>Monday - Saturday: 8am - 8pm</p>
+        </div>
+        <!-- Stylist 3 -->
+        <div class="col-sm-4">
+          <h4 class="text-center"><a href="#">Location</a></h4>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.9697076516237!2d114.1559950292202!3d22.2825793400412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064af9ad0ed%3A0xc2046c64047d80fc!2sCOLOUR+BAR+SALON!5e0!3m2!1sen!2shk!4v1534754963003" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Social -->
+      <section id="social">
         <div class="fluid-container">
           <!-- Contact Heading -->
-          <h1 class="text-center">Social Media</h1>
+          <h2 class="text-center">Social Media</h2>
 
           <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
           <div class="row">
@@ -157,7 +190,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="contact text-center">
                 <a href="#" >
-                  <span aria-hidden="true" class="fa fa-twitter fa-5x text-center"></span>
+                  <span aria-hidden="true" class="fa fa-twitter fa-3x text-center"></span>
                 </a>
               </div>
             </div>
@@ -166,7 +199,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="contact text-center">
                 <a href="#" >
-                  <span aria-hidden="true" class="fa fa-facebook fa-5x text-center"></span>
+                  <span aria-hidden="true" class="fa fa-facebook fa-3x text-center"></span>
                 </a>
               </div>
             </div>
@@ -175,7 +208,7 @@
             <div class="col-sm-6 col-lg-3">
               <div class="contact text-center">
                 <a href="#" >
-                  <span aria-hidden="true" class="fa fa-envelope fa-5x" ></span>
+                  <span aria-hidden="true" class="fa fa-envelope fa-3x" ></span>
                 </a>
               </div>
             </div>
@@ -184,7 +217,7 @@
             <div class="col-lg-3">
               <div class="contact text-center">
                 <a href="#" >
-                  <span aria-hidden="true" class="fa fa-linkedin fa-5x" ></span>
+                  <span aria-hidden="true" class="fa fa-instagram fa-3x" ></span>
                 </a>
               </div>
             </div>
@@ -192,15 +225,21 @@
         </div>
       </section>
 
+
+
+
+<!--  -->
   </main>
 
+  <!-- Footer -->
+    <footer class="text-right">Copyright &copy; The ColourBar Salon 2018. All rights reserved.</footer>
 
 
 
 
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Scissors and comb">Scissors and comb</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
 
-
+<script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
 
 
   <!-- Latest compiled and minified jQuery -->

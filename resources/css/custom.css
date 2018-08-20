@@ -8,14 +8,23 @@ a {
 
 /* Uncomment this block of code below to see the page layout divided into sections and divs as rectangles */
 
-/*
-div, section {
+
+/* div, section {
   border: 1px solid black;
-}
-*/
+} */
+
 
 h1 {
   /* padding: 30px; */
+}
+
+h2 {
+  /* font-size: 40px; */
+  padding: 30px;
+}
+
+h4{
+  font-weight: bold;
 }
 
 section {
@@ -61,9 +70,8 @@ ul.nav li.active a {
   color: White !important;
 }
 
-.jumbotron h1 {
-
-  font-weight: bolder;
+.cbtitle{
+  padding: 30px 30px -30px 30px;
 }
 
 /* .jumbotron-bike {
@@ -83,11 +91,27 @@ ul.nav li.active a {
   letter-spacing: 2px;
 }
 
-/* Portfolio Section */
+/* ......services section.......... */
 
-#portfolio {
+/* #portfolio {
+  background-color: #eee;
+} */
+
+
+/* #skills h1 {
+  padding: 30px;
+} */
+
+/* Stylists Section */
+
+#stylists {
   background-color: #eee;
 }
+
+ion-icon {
+  font-size: 64px;
+}
+
 
 .row img {
   margin: 20px 0;
@@ -98,10 +122,16 @@ ul.nav li.active a {
 }
 
 /*Contact Section*/
-
-.contact {
-  padding: 1em;
+#social {
+  background-color: #eee;
 }
+
+.row p{
+  text-align: center;
+}
+/* .social {
+  padding: 1em;
+} */
 
 /* Footer */
 
