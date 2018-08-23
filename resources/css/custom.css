@@ -23,6 +23,7 @@ a {
  */
 
 h1 {
+
   /* padding: 30px; */
 }
 
@@ -37,7 +38,7 @@ h4{
 }
 
 section {
-    padding: 0 3em 3em 3em;
+    padding: .1em 3em 3em 3em;
 }
 
 /* Navbar */
@@ -51,7 +52,8 @@ section {
 
 .navbar {
   margin-bottom: 0;
-  background-color: black;
+  background-color: #00a3d8;
+  border:0px;
 }
 
 /* colours for links in navbar */
@@ -83,13 +85,22 @@ ul.nav li.active a {
 
 .cbtitle{
   padding: 30px 30px -30px 30px;
+  /* These two below set a background and width for the text */
+  /* background-color: rgba(0, 0, 0, 0.25);
+  width:75%; */
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
-/* .jumbotron-bike {
-  background-image: url("../images/salon.jpg");
+/* h1 span{
+  background-color: rgba(0, 0, 0, 0.25);
 } */
 
+
 .jumbotron p {
+  font-size: 2rem;
   font-style: italic;
   margin-bottom: 0;
   font-weight: bolder;
@@ -97,33 +108,31 @@ ul.nav li.active a {
 
 .jumbotron h1{
   font-weight: bolder;
+  font-size: 4rem;
 }
 
 .btn {
   background-color: #c22478;
   color: #fff500;
   font-style:normal;
+  font-size: 1.5rem;
   font-weight:600;
   letter-spacing: 2px;
+  border:0px;
+}
+
+.btn-primary:hover {
+    background-color: #00a3d8;
 }
 
 /* ......services section.......... */
 
 #services {
   background-color: #00a3d8;
+  color:white;
 }
 
-
-/* #portfolio {
-  background-color: #eee;
-} */
-
-
-/* #skills h1 {
-  padding: 30px;
-} */
-
-/* Stylists Section */
+/* ..........Stylists Section........... */
 
 #stylists {
   background-color: #fff500;
@@ -135,21 +144,24 @@ ion-icon {
 
 
 .row img {
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .sect-title{
   margin:auto;
 }
 
-/*contact Section*/
+/*...............Contact Section...............*/
+
+
 #contact {
   background-color: #c22478;
+  color:white;
 }
 
 .map{
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* .infoframe{
@@ -158,15 +170,27 @@ ion-icon {
 
 .row p{
   text-align: center;
+  /* color:black; */
 }
+
+
+/* ............Social Section.......... */
+
+.rht
 /* .social {
   padding: 1em;
 } */
 
-/* Footer */
+.mh1 div {
+  height: 10vh; /* 30% of viewport height*/
+}
+
+
+
+
+/* ......................Footer................ */
 
 footer {
-  height:auto;
   background: black;
   color: lightgray;
   padding: .6em;

@@ -40,11 +40,11 @@
           </ul> -->
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Stylists</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#">Products</a></li> -->
+            <li><a href="#stylists">Stylists</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#social">Community</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -55,10 +55,12 @@
   <main>
     <!-- Jumbotron -->
     <section class="jumbotron">
-      <div class="fluid-container cbtitle">
-        <h1>The Colour Bar Salon</h1>
-        <p>Hong Kong's biggest celebrity hair salon</p><br>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Call Us</a></p>
+      <div class="fluid-container">
+        <div class="cbtitle">
+          <h1>The Colour Bar Salon</h1>
+          <p>Hong Kong's biggest celebrity hair salon</p><br>
+        </div>
+        <p><a class="btn btn-primary btn-lg" href="#contact" role="button">Call Us </a></p>
       </div>
     </section>
 
@@ -159,20 +161,20 @@
         <!-- Stylist 1 -->
         <div class="col-sm-4 infoframe">
 
-          <h4 class="text-center"><a href="#">Address</a></h4>
+          <h4 class="text-center">Address</a></h4>
           <p>9 Chiu Lung Street<br>11/F EuBank Plaza<br>Central District<br>Hong Kong</p>
           <p>852 - 25254228 / 25254229</p>
         </div>
         <!-- Stylist 2 -->
         <div class="col-sm-4 infoframe">
-          <h4 class="text-center"><a href="#">Working Hours</a></h4>
+          <h4 class="text-center">Working Hours</a></h4>
           <p>Monday - Saturday: 8am - 8pm</p>
         </div>
         <!-- Stylist 3 -->
         <div class="col-sm-4 infoframe">
-          <h4 class="text-center"><a href="#">Location</a></h4>
+          <h4 class="text-center">Location</a></h4>
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.9697076516237!2d114.1559950292202!3d22.2825793400412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064af9ad0ed%3A0xc2046c64047d80fc!2sCOLOUR+BAR+SALON!5e0!3m2!1sen!2shk!4v1534754963003" width= 100% height= 95% frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.9697076516237!2d114.1559950292202!3d22.2825793400412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040064af9ad0ed%3A0xc2046c64047d80fc!2sCOLOUR+BAR+SALON!5e0!3m2!1sen!2shk!4v1534754963003" width= 100% height= 100% frameborder="0" style="border: 1px solid black;" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -180,49 +182,50 @@
 
   <!-- Social -->
       <section id="social">
-        <div class="fluid-container">
-          <!-- Contact Heading -->
-          <h2 class="text-center">Social Media</h2>
 
-          <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
-          <div class="row">
-            <!-- Twitter Column -->
-            <div class="col-sm-6 col-lg-3">
-              <div class="contact text-center">
-                <a href="#" >
-                  <span aria-hidden="true" class="fa fa-twitter fa-3x text-center"></span>
-                </a>
+          <div class="fluid-container">
+            <!-- Contact Heading -->
+            <h2 class="text-center">Social Media</h2>
+
+            <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
+            <div class="row mh1">
+              <!-- Twitter Column -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="contact text-center">
+                  <a href="#" >
+                    <span aria-hidden="true" class="fa fa-twitter fa-3x text-center"></span>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <!-- Facebook Column -->
-            <div class="col-sm-6 col-lg-3">
-              <div class="contact text-center">
-                <a href="#" >
-                  <span aria-hidden="true" class="fa fa-facebook fa-3x text-center"></span>
-                </a>
+              <!-- Facebook Column -->
+              <div class="col-sm-6 col-lg-3">
+                <div class="contact text-center">
+                  <a href="https://www.facebook.com/Colour-Bar-Hair-Salon-341753459360663/" target="_blank" >
+                    <span aria-hidden="true" class="fa fa-facebook fa-3x text-center"></span>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <!-- Email Column-->
-            <div class="col-sm-6 col-lg-3">
-              <div class="contact text-center">
-                <a href="#" >
-                  <span aria-hidden="true" class="fa fa-envelope fa-3x" ></span>
-                </a>
+              <!-- Email Column-->
+              <div class="col-sm-6 col-lg-3">
+                <div class="contact text-center">
+                  <a href="mailto:webmaster@example.com" >
+                    <span aria-hidden="true" class="fa fa-envelope fa-3x" ></span>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <!-- LinkedIn Column-->
-            <div class="col-lg-3">
-              <div class="contact text-center">
-                <a href="#" >
-                  <span aria-hidden="true" class="fa fa-instagram fa-3x" ></span>
-                </a>
+              <!-- LinkedIn Column-->
+              <div class="col-lg-3">
+                <div class="contact text-center">
+                  <a href="#" >
+                    <span aria-hidden="true" class="fa fa-instagram fa-3x" ></span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </section>
 
 
